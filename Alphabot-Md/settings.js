@@ -17,7 +17,7 @@ global.APIs = {
 // beli apikey premium pc wa: 0887435047326
 // beli apikey premium pc wa: 0887435047326
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': 'L6mLIgNvBK6NnRP', // 👉 login https://api.zeeoneofc.my.id to get apikey, tutor https://youtu.be/THsiM3I7sLI
+   'https://api.zeeoneofc.my.id': 'TDzqWbUKPiK7nZg', // 👉 login https://api.zeeoneofc.my.id to get apikey, tutor https://youtu.be/THsiM3I7sLI
 }
 global.sewabotnya = `
 Ariefvoss Bot
