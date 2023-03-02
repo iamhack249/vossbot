@@ -613,13 +613,13 @@
       "lastrampok": 0
     },
     "62895600555028@s.whatsapp.net": {
-      "premium": false,
+      "premium": true,
       "banned": false,
       "afkTime": -1,
       "pc": 1677641889851,
       "afkReason": "",
       "language": "id",
-      "limit": 24,
+      "limit": 99999999999,
       "healt": 8,
       "title": 0,
       "healtmonster": 0,
