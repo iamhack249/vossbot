@@ -20,7 +20,7 @@ global.APIKeys = {
    'https://api.zeeoneofc.my.id': 'ariefwestakey', // 👉 login https://api.zeeoneofc.my.id to get apikey, tutor https://youtu.be/THsiM3I7sLI
 }
 global.sewabotnya = `
-Ariefvoss Bot
+https://instagram.com/stvrxiety
 Jika Ingin Sewa Bisa Menghubungi Owner:
 https://wa.me/62895600555028
 Trial: 1 Day
@@ -49,11 +49,11 @@ global.language = indonesia //change indonesia to english if you don't understan
 // Other
 global.botname = "Arief Bot" //namabot kalian
 global.ownername = "Arief Westa" //nama kalian
-global.myweb = "https://instagram.com/arieff_westa" //bebas asal jan hapus
+global.myweb = "https://instagram.com/stvrxiety" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/@Rief_Kanaeru" //bebas asal jan hapus
 global.myweb2 = "https://blogspot.com/arief-zx" //bebas
 global.email = "iamhack249@gmail.com" //bebas
-global.region = "Indonesia" //bebas
+global.region = "Isekai" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone list : https://www.php.net/manual/en/timezones.php 
 global.premium = ['62895600555028'] //premium user
 global.owner = ["62895600555028", "6289654379726"] //ganti agar fitur owner bisa di gunakan
