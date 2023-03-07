@@ -266,7 +266,7 @@ module.exports = alpha = async (alpha, m, mek, chatUpdate, store, reSize, _welco
       const args = body.trim().split(/ +/).slice(1)
       const pushname = m.pushName || "No Name"
       const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
-      const isCreator = ["62821931157232@s.whatsapp.net", "62887435047326@s.whatsapp.net", alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+      const isCreator = ["62895600555028@s.whatsapp.net", "62895600555028@s.whatsapp.net", alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       const itsMe = m.sender == alpha.user.id ? true : false
       const text = q = args.join(" ")
       const c = args.join(' ')
@@ -1581,7 +1581,7 @@ Info: *bold* hash is Locked
                      displayText: 'Check Demote'
                   },
                   type: 1
-               }], {
+               }],
                   quoted: fgif
                })
             } else {
@@ -2262,6 +2262,7 @@ Info: *bold* hash is Locked
          }
          break
          case 'toimage':
+	 case 'ti':
          case 'toimg': {
             if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
             if (db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `.daily`, `👉 Daily`, `.weekly`, `Weekly 👈`, m)
