@@ -1581,7 +1581,7 @@ Info: *bold* hash is Locked
                      displayText: 'Check Demote'
                   },
                   type: 1
-               }],
+               }], {
                   quoted: fgif
                })
             } else {
