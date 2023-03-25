@@ -7,7 +7,7 @@ const {
 } = require(`./language`)
 
 //OpenAi || ChatGpt
-global.OpenAIKey = "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" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "1sk-g36ZnjtkRuUqE3ZAqXKyT3BlbkFJ6leb0gOnOX3PX8NzWNMh" //login to https://platform.openai.com/account/api-keys to get apikey
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
