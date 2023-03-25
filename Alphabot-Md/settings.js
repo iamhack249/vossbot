@@ -7,7 +7,7 @@ const {
 } = require(`./language`)
 
 //OpenAi || ChatGpt
-global.OpenAIKey = "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" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "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" //login to https://platform.openai.com/account/api-keys to get apikey
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
@@ -32,7 +32,7 @@ Trial: 1 Day
 global.firtsChat = false //send firts message to new user
 global.autoread = true // auto read message
 global.antidelete = false // anti delete
-global.antiviewonce = true // anti view once
+global.antiviewonce = false // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = false //anti call 
 global.userRegister = true
