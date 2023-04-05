@@ -30,7 +30,7 @@ Trial: 1 Day
 `
 // setting 
 global.firtsChat = false //send firts message to new user
-global.autoread = true // auto read message
+global.autoread = false // auto read message
 global.antidelete = false // anti delete
 global.antiviewonce = false // anti view once
 global.autobio = false //auto ganti bio
